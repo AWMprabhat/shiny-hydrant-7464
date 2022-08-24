@@ -4,7 +4,7 @@ import * as types from "./actionType";
 const register = (payload) => (dispatch) => {
   dispatch({ type: types.REGISTER_REQUEST });
   return axios
-    .post("", payload)
+    .post("https://reqres.in/api/register", )
     .then((r) => {
         console.log(r)
       dispatch({ type: types.REGISTER_SUCCESS, payload: r.data });
