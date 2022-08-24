@@ -6,13 +6,13 @@ import Register from "../Pages/others/Register.jsx";
 
 const AllRoutes = () => {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </div>
+		<div>
+			<Navbar />
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="/register" element={<Register />} />
+			</Routes>
+		</div>
   );
 };
 
