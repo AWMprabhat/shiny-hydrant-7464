@@ -16,6 +16,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { login } from "../../Redux/AuthReducer/action";
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -54,14 +55,21 @@ const Login = () => {
           <Text>Get relevant job recommendations.</Text>
           <Text>Showcase profile to top companies and consultants.</Text>
           <Text>Know application status on applied jobs.</Text>
-          <Button border="1px solid royalblue" p="1rem 3rem" fontWeight="lighter" bg="transparent" color="royalblue" >Register for Free</Button>
+          <Button
+            border="1px solid royalblue"
+            p="1rem 3rem"
+            fontWeight="lighter"
+            bg="transparent"
+            color="royalblue"
+          >
+            Register for Free
+          </Button>
           <Image
             w="200px"
             float="right"
             src="https://static.naukimg.com/s/5/105/i/register.png"
             alt="logo"
           />
-          
         </Box>
       </Stack>
       <Stack
@@ -122,9 +130,9 @@ const Login = () => {
                 </RouterLink>
               </Text>
             </Stack>
-            <hr/>
+            <hr />
             <Box>
-              
+              <FcGoogle />
             </Box>
           </Stack>
         </Box>
