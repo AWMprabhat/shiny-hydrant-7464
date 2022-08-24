@@ -16,6 +16,8 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { login } from "../../Redux/AuthReducer/action";
+import { FcGoogle } from "react-icons/fc";
+import { MdDone } from "react-icons/md";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -50,18 +52,37 @@ const Login = () => {
       >
         <Box textAlign="left">
           <Heading size={"md"}>New to Naukri?</Heading>
-          <Text>One click apply using naukri profile.</Text>
-          <Text>Get relevant job recommendations.</Text>
-          <Text>Showcase profile to top companies and consultants.</Text>
-          <Text>Know application status on applied jobs.</Text>
-          <Button border="1px solid royalblue" p="1rem 3rem" fontWeight="lighter" bg="transparent" color="royalblue" >Register for Free</Button>
+          <Text display="flex" alignItems="center">
+            <MdDone color="royalblue" />
+            One click apply using naukri profile.
+          </Text>
+          <Text display="flex" alignItems="center">
+            <MdDone color="royalblue" />
+            Get relevant job recommendations.
+          </Text>
+          <Text display="flex" alignItems="center">
+            <MdDone color="royalblue" />
+            Showcase profile to top companies and consultants.
+          </Text>
+          <Text display="flex" alignItems="center">
+            <MdDone color="royalblue" />
+            Know application status on applied jobs.
+          </Text>
+          <Button
+            border="1px solid royalblue"
+            p="1rem 3rem"
+            fontWeight="lighter"
+            bg="transparent"
+            color="royalblue"
+          >
+            Register for Free
+          </Button>
           <Image
             w="200px"
             float="right"
             src="https://static.naukimg.com/s/5/105/i/register.png"
             alt="logo"
           />
-          
         </Box>
       </Stack>
       <Stack
@@ -122,9 +143,17 @@ const Login = () => {
                 </RouterLink>
               </Text>
             </Stack>
-            <hr/>
-            <Box>
-              
+            <hr />
+            <Box
+              display="flex"
+              alignItems="center"
+              boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
+              borderRadius="1rem"
+              justifyContent="space-evenly"
+              p="0.5rem"
+            >
+              <FcGoogle />
+              <Text>Sign in with Google</Text>
             </Box>
           </Stack>
         </Box>
