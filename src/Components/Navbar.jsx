@@ -4,12 +4,12 @@ import {Flex} from "@chakra-ui/react"
 
 const Navbar = () => {
     return (
-		// <>
-		// <Flex gap="5rem">
-		// 	<Link to="/">Home</Link>
-		// 	<Link to="/register">Register</Link>
-		// </Flex>
-		// </>
+		<>
+			<Flex gap="5rem">
+				<Link to="/">Home</Link>
+				<Link to="/register">Register</Link>
+			</Flex>
+		</>
 	);
 };
 

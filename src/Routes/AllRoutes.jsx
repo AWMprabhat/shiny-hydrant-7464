@@ -10,7 +10,7 @@ const AllRoutes = () => {
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
-				{/* <Route path="/register" element={<Register />} /> */}
+				<Route path="/register" element={<Register />} />
 			</Routes>
 		</div>
   );
