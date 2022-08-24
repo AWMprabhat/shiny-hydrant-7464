@@ -131,8 +131,16 @@ const Login = () => {
               </Text>
             </Stack>
             <hr />
-            <Box>
+            <Box
+              display="flex"
+              alignItems="center"
+              boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
+              borderRadius="1rem"
+              justifyContent="space-evenly"
+              p="0.5rem"
+            >
               <FcGoogle />
+              <Text>Sign in with Google</Text>
             </Box>
           </Stack>
         </Box>
