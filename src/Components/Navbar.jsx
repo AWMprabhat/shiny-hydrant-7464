@@ -7,6 +7,7 @@ const Navbar = () => {
     <>
       <Flex gap="5rem">
         <Link to="/">Home</Link>
+        <Link to="/register">Register</Link>
       </Flex>
     </>
   );
