@@ -43,6 +43,8 @@ const reducer = (state, action) => {
       return { ...state, password: action.payload };
     case "mobile":
       return { ...state, mobile: action.payload };
+    case "work":
+      return { ...state, mobile: action.payload };
 
     default:
       return state;
@@ -136,8 +138,12 @@ const Register = () => {
             <Box>
               <FormControl id="work" isRequired>
                 <FormLabel>Work Status</FormLabel>
-
-                <Select placeholder="Select option">
+                <Select
+                  placeholder="Select option"
+                  onChange={(e) =>
+                    setState({ type: "work", payload: e.target.value })
+                  }
+                >
                   <option value="I'm Experienced">I'm Experienced</option>
                   <option value="I'm a Fresher">I'm a Fresher</option>
                 </Select>
