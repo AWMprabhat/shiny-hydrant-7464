@@ -4,7 +4,7 @@ import { Flex, Button, Box } from "@chakra-ui/react";
 
 const Navbar = () => {
 	return (
-		<Box width="inherit" p="20px">
+		<Box p="20px" width="80%" m="auto">
 			<Flex align="center" justify="space-evenly" gap="0">
 				<Box width="20%" m="0">
 					<Flex justify="center">
@@ -29,15 +29,19 @@ const Navbar = () => {
 					<Flex align="center" ml="60px" gap="10px">
 						<Link to="/">
 							<Button
-								style={{ borderRadius: "20%" }}
+								borderRadius="40px"
 								variant="outline"
-								size="xs"
+								size="sm"
 								colorScheme="blue">
 								Login
 							</Button>
 						</Link>
 						<Link to="/">
-							<Button size="xs" color="white" bgColor="#fe7554">
+							<Button
+								borderRadius="40px"
+								size="sm"
+								color="white"
+								bgColor="#fe7554">
 								Register
 							</Button>
 						</Link>
