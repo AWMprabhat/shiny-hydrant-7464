@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {Flex} from "@chakra-ui/react"
 
 const Navbar = () => {
     return (
-		<div>
+		<>
+		<Flex gap="5rem">
 			<Link to="/">Home</Link>
-		</div>
+			<Link to="/register">Register</Link>
+		</Flex>
+		</>
 	);
 };
 

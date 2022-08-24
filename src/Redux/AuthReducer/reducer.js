@@ -6,7 +6,7 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
-  const { type, payload } = payload;
+  const { type, payload } = action;
   switch (type) {
     case types.REGISTER_REQUEST:
       return { ...state, isLoading: true };
@@ -20,3 +20,4 @@ const reducer = (state = initialState, action) => {
     }
   }
 };
+export { reducer };

@@ -1,5 +1,5 @@
 import axios from "axios";
-import * as types from "./actionTypes";
+import * as types from "./actionType";
 
 const register = (payload) => (dispatch) => {
   dispatch({ type: types.REGISTER_REQUEST });
@@ -10,3 +10,5 @@ const register = (payload) => (dispatch) => {
     })
     .catch((e) => dispatch({ type: types.REGISTER_FAILURE, payload: e }));
 };
+
+export { register };
