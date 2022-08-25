@@ -4,16 +4,25 @@
 
 .slick-prev{
 
+
   width: '100px';
   height: '100px';
   color:aliceblue;
   background-color: rgb(217, 214, 214) !important;
+
+  /* color:black !important; */
+  color:aliceblue;
+  background-color: black !important;
   border-radius: 60%;
   
 }
 .slick-next{
   border-radius: 60%;
+
   background-color: rgb(217, 214, 214) !important;
+
+  background-color: black !important;
+
   
 }
 .slick-arrow{

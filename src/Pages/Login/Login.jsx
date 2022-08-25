@@ -13,29 +13,37 @@ import {
   Image,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { login } from "../../Redux/AuthReducer/action";
 import { FcGoogle } from "react-icons/fc";
 import { MdDone } from "react-icons/md";
-
+//#445578
 const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  const token = useSelector((store) => store.AuthReducer.token);
   const loginHandler = () => {
-    if (username && password) {
-      const params = {
-        username,
-        password,
-      };
-
-      dispatch(login(params)).then((r) => {
-        navigate("/", { replace: true });
-      });
-    }
+    dispatch(login()).then(() => {
+      if (token) {
+        for (let i = 0; i < token.length; i++) {
+          if (
+            (token[i].name === username || token[i].email === username) &&
+            token[i].password === password
+          ) {
+            alert("login success");
+            navigate("/", { replace: true });
+            break;
+          } else {
+            continue;
+          }
+        }
+      } else {
+        alert("login failed");
+      }
+    });
   };
 
   return (
