@@ -3,15 +3,17 @@
 }
 
 .slick-prev{
-  /* color:black !important; */
+
+  width: '100px';
+  height: '100px';
   color:aliceblue;
-  background-color: black !important;
+  background-color: rgb(217, 214, 214) !important;
   border-radius: 60%;
   
 }
 .slick-next{
   border-radius: 60%;
-  background-color: black !important;
+  background-color: rgb(217, 214, 214) !important;
   
 }
 .slick-arrow{
