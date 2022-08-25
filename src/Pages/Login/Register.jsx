@@ -17,11 +17,13 @@ import {
   Editable,
   EditablePreview,
   EditableTextarea,
+  Image,
 } from "@chakra-ui/react";
 import { ViewIcon } from "@chakra-ui/icons";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { register } from "../../Redux/AuthReducer/action";
+import { FcApproval } from "react-icons/fc";
 
 const initialState = {
   name: "",
@@ -42,6 +44,8 @@ const reducer = (state, action) => {
     case "password":
       return { ...state, password: action.payload };
     case "mobile":
+      return { ...state, mobile: action.payload };
+    case "work":
       return { ...state, mobile: action.payload };
 
     default:
@@ -67,7 +71,49 @@ const Register = () => {
       justify={"center"}
       bg={useColorModeValue("gray.50", "gray.800")}
     >
-      <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
+      <Stack h="90vh"   spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6} >
+       <Box  position="fixed" >
+       <Box
+          minh="45vh"
+          borderRadius={"1rem"}
+          border="1px dashed grey"
+          p="4rem 3rem 2rem 3rem"
+          fontSize={"sm"}
+          fontWeight="lighter"
+          color="darkgrey"
+          boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
+          position="relative"
+          textAlign={"left"}
+        >
+          <Image
+            m="auto"
+            bottom="200"
+            left="130"
+            position="absolute"
+            src="https://static.naukimg.com/s/7/104/assets/images/green-boy.c8b59289.svg"
+            alt="chomu"
+          />
+          <Heading size="md" color="black">
+            On registering, you can
+          </Heading>
+          <br />
+          <Text display="flex">
+            <FcApproval size="20px" /> Build your profile and let recruiters
+            find you
+          </Text>
+          <br />
+          <Text display="flex">
+            <FcApproval size="20px" /> Get job postings delivered right to your
+            email
+          </Text>
+          <br />
+          <Text display="flex">
+            <FcApproval size="20px" /> Find a job and grow your career
+          </Text>
+        </Box>
+       </Box>
+      </Stack>
+      <Stack border="1px solid red" spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Stack align={"center"}>
           <Heading fontSize={"4xl"} textAlign={"center"}>
             Find a job & grow your career
@@ -77,6 +123,7 @@ const Register = () => {
           rounded={"lg"}
           bg={useColorModeValue("white", "gray.700")}
           boxShadow={"lg"}
+     
           p={8}
         >
           <Stack spacing={4}>
@@ -136,8 +183,12 @@ const Register = () => {
             <Box>
               <FormControl id="work" isRequired>
                 <FormLabel>Work Status</FormLabel>
-
-                <Select placeholder="Select option">
+                <Select
+                  placeholder="Select option"
+                  onChange={(e) =>
+                    setState({ type: "work", payload: e.target.value })
+                  }
+                >
                   <option value="I'm Experienced">I'm Experienced</option>
                   <option value="I'm a Fresher">I'm a Fresher</option>
                 </Select>
@@ -163,6 +214,7 @@ const Register = () => {
                 _hover={{
                   bg: "blue.500",
                 }}
+                borderRadius="2rem"
                 onClick={RegisterHandle}
               >
                 Register
