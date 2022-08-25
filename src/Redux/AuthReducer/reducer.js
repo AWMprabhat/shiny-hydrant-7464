@@ -4,6 +4,7 @@ import * as types from "./actionType";
 const initialState = {
   isLoading: false,
   isError: false,
+  profileStore: [],
   isAuth: getLocalData("token") ? true : false,
   token: getLocalData("token") || "",
 };
@@ -32,6 +33,8 @@ const reducer = (state = initialState, action) => {
         isAuth: false,
         token: "",
       };
+    case types.PROFILEID_SUCCESS:
+      return { ...state, profileStore: payload };
     default: {
       return state;
     }
