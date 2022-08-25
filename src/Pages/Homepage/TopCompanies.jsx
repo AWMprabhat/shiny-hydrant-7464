@@ -7,9 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "@chakra-ui/react";
 import "../../App.css";
-import { Box, Flex } from "@chakra-ui/react";
-import React from "react";
-import { IoIosArrowForward } from "react-icons/io";
+
 
 
 const data = [
@@ -116,25 +114,6 @@ const TopCompanies = () => {
 	);
 };;
 
-];
-
-const TopCompanies = () => {
-	console.log(data);
-	return (
-		<>
-			{data.map((e, i) => (
-				<Box key={i}>
-					<Flex align="center">
-						{e.name}
-						{<IoIosArrowForward />}
-					</Flex>
-					<Flex>{e.title}</Flex>
-					<Flex></Flex>
-				</Box>
-			))}
-		</>
-	);
-};
 
 
 export default TopCompanies;

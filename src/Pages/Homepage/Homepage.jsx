@@ -110,26 +110,28 @@ const Homepage = () => {
 			{/* buttons */}
 
 			<Box m="auto" mt="60px" color="#445578" width="80%">
+				<Box m="auto" mt="60px" color="#445578" width="60%">
+					<Naukributton />
+				</Box>
+				<Box mt="60px" color="#445578">
+					<Heading size="lg">
+						Explore top companies hiring now
+					</Heading>
+				</Box>
 
-			<Box m="auto" mt="60px" color="#445578" width="60%">
+				<Box m="auto" mt="60px" width="80%">
+					<TopCompanies />
+				</Box>
+				<Box mt="60px" color="#445578">
+					<Heading size="lg">
+						Featured companies actively hiring
+					</Heading>
+				</Box>
 
-				<Naukributton />
+				<Box mt="60px">
+					<TopCompanies />
+				</Box>
 			</Box>
-			<Box mt="60px" color="#445578">
-				<Heading size="lg">Explore top companies hiring now</Heading>
-			</Box>
-
-			<Box m="auto" mt="60px" width="80%">
-				<TopCompanies />
-			</Box>
-			<Box mt="60px" color="#445578">
-				<Heading size="lg">Featured companies actively hiring</Heading>
-			</Box>
-
-			<Box mt="60px">
-				<TopCompanies />
-			</Box>
-
 		</Box>
 	);
 };
