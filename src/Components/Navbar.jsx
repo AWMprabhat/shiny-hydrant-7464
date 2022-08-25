@@ -27,7 +27,7 @@ const Navbar = () => {
 				</Box>
 				<Box width="40%">
 					<Flex align="center" ml="60px" gap="10px">
-						<Link to="/">
+						<Link to="/login">
 							<Button
 								borderRadius="40px"
 								variant="outline"
@@ -36,7 +36,7 @@ const Navbar = () => {
 								Login
 							</Button>
 						</Link>
-						<Link to="/">
+						<Link to="/register">
 							<Button
 								borderRadius="40px"
 								size="sm"

@@ -10,10 +10,12 @@ import {
 	Text,
 	Image,
 } from "@chakra-ui/react";
+import Naukributton from "./Naukributton.jsx";
+import TopCompanies from "./TopCompanies.jsx";
 
 const Homepage = () => {
 	return (
-		<Box width="80%" m="auto">
+		<Box width="80%" m="auto" color="#445578">
 			<Box mt="60px">
 				<Heading size="xl">Find your dream job now</Heading>
 				<Text>5 lakh+ jobs for you to explore</Text>
@@ -102,8 +104,18 @@ const Homepage = () => {
 				</Flex>
 			</Box>
 
-			<Box mt="60px">
+			<Box mt="60px" color="#445578">
 				<Heading size="lg">Trending on Naukri today</Heading>
+			</Box>
+			{/* buttons */}
+			<Box m="auto" mt="60px" color="#445578" width="60%">
+				<Naukributton />
+			</Box>
+			<Box mt="60px" color="#445578">
+				<Heading size="lg">Explore top companies hiring now</Heading>
+			</Box>
+			<Box mt="60px">
+				<TopCompanies />
 			</Box>
 		</Box>
 	);
