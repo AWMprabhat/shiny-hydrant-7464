@@ -24,4 +24,16 @@ const login = () => (dispatch) => {
     });
 };
 
-export { register, login };
+const profile = (payload) => (dispatch) => {
+  dispatch({ type: types.PROFILEID_REQUEST });
+  axios
+    .get(`http://localhost:7777/registeration`)
+    .then((res) => {
+      dispatch({ type: types.PROFILEID_SUCCESS,payload:res.data });
+    })
+    .catch((err) => {
+      dispatch({ type: types.PROFILEID_FAILURE });
+    });
+};
+
+export { register, login, profile };
