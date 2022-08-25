@@ -57,8 +57,13 @@ const Naukributton = () => {
 					key={e.name}
 					style={{
 						border: "1px solid #EBF1F4 ",
+
+						height: "80px",
+						margin: "6px",
+
 						margin: "6px",
 						height: "80px",
+
 						borderTopLeftRadius: "15%",
 						borderTopRightRadius: "5%",
 						borderBottomRightRadius: "15%",
