@@ -35,10 +35,11 @@ const FilterData = () => {
       <Box
         bgImage="linear-gradient(navy,teal,blue)"
         color="whitesmoke"
+        mr="20px"
       >
-        <Text fontSize="2xl">Filter</Text>
+        <Text fontSize="2xl" >Filter</Text>
       </Box>
-      <Box display="flex" justifyContent="space-between">
+      <Box display="flex" justifyContent="space-between"  mr="20px">
         <FormLabel>IT Services</FormLabel>
         <Checkbox
           type="checkbox"
@@ -47,7 +48,7 @@ const FilterData = () => {
           onChange={handleOnChange}
         />
       </Box>
-      <Box display="flex" justifyContent="space-between">
+      <Box display="flex" justifyContent="space-between"  mr="20px">
         <FormLabel>Technology</FormLabel>
         <Checkbox
           value="Technology"
