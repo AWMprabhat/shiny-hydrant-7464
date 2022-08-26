@@ -29,7 +29,7 @@ const Company = () => {
         <Box w="80%" display="grid" gridTemplateColumns="repeat(4,1fr)" gap="15px">
           {company.length > 0 &&
             company.map((t) => (
-              <Flex key={t.id} borderRadius="5px" direction="column" w="100%" gap="1rem" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" mt="10px" pb="5px">
+              <Flex key={t.id} borderRadius="5px" direction="column" w="100%" gap="1.1rem" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" mt="10px" pb="5px">
                 <Box>
                   <Image
                     w="200px"
