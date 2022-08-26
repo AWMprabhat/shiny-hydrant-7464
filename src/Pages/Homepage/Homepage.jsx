@@ -13,8 +13,12 @@ import {
 import Naukributton from "./Naukributton.jsx";
 import TopCompanies from "./TopCompanies.jsx";
 import SingalSlideBox from "./SingalSlideBox.jsx";
+import { useSelector } from "react-redux";
 
 const Homepage = () => {
+	const data = useSelector((a) => a);
+	// console.log("data: ", data);
+
 	return (
 		<Box width="80%" m="auto" color="#445578">
 			<Box mt="60px">
@@ -115,7 +119,6 @@ const Homepage = () => {
 			{/* buttons */}
 
 			<Box m="auto" mt="60px" color="#445578" width="80%">
-
 				<Naukributton />
 			</Box>
 			<Box mt="60px" color="#445578">
@@ -186,11 +189,14 @@ const Homepage = () => {
 						<SingalSlideBox />
 					</Box>
 
+				
+
+
 			</Box>
 		</Box>
 	</Box>
 	);
-};
+};;
 
 export default Homepage;
 

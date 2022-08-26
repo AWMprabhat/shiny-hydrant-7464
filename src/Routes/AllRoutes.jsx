@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Footer from "../Components/Footer.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import Company from "../Pages/Companies/Company.jsx";
 import CompanyStore from "../Pages/Companies/CompanyStore.jsx";
@@ -10,6 +11,8 @@ import Footer from "../Components/Footer"
 
 const AllRoutes = () => {
   return (
+
+
     <div>
       <Navbar />
       <Routes>
@@ -21,6 +24,7 @@ const AllRoutes = () => {
       </Routes>
       <Footer/>
     </div>
+
   );
 };
 

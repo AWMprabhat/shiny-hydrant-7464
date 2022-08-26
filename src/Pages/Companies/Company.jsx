@@ -9,6 +9,7 @@ import { AiFillStar } from "react-icons/ai";
 const Company = () => {
   const dispatch = useDispatch();
   const company = useSelector((store) => store.AppReducer.company);
+  console.log("company: ", company);
   const [searchParams] = useSearchParams();
   useEffect(() => {
     if (company.length === 0) {
