@@ -1,13 +1,14 @@
 {
   "Company":[
     {
-    "id":"1",
+    "id":"19",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"ExcelaCom Technologies",
     "image":"https://img.naukimg.com/logo_images/groups/v1/1181436.gif",
     "rating":"4.3",
     "description":"IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/rws-moravia_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Postgresql Developer",
@@ -33,13 +34,14 @@
   ]
   },
   {
-    "id":"2",
+    "id":"20",
     "reviews":1.4,
     "type":"Technology ",
     "name":"AECOM",
     "image":"https://img.naukimg.com/logo_images/groups/v1/295156.gif",
     "rating":"4.5",
     "description":"Engineering & ConstructionIndustrial Equipment / MachineryPrivateForeign MNCB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/fidelity-national-information-services_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Senior Systems Engineer",
@@ -65,13 +67,14 @@
   ]
   },
   {
-    "id":"3",
+    "id":"21",
     "reviews":1.4,
     "type":"Manufacturing & Production",
     "name":"Visible Alpha",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4639227.gif",
     "rating":"4.2",
     "description":"Software Product, Private, Foreign MNC, Indian MNC, B2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Research Associate I / Junior Research Associate",
@@ -104,13 +107,14 @@
   ]
   },
   {
-    "id":"4",
+    "id":"22",
     "reviews":1.4,
     "type":"BFSI",
     "name":"Ognam Technology",
     "image":"https://img.naukimg.com/logo_images/groups/v1/412440.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/oracle_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -150,13 +154,14 @@
   ]
   },
   {
-    "id":"5",
+    "id":"23",
     "reviews":1.4,
     "type":"BFSI",
     "name":"ABFRL",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4578215.gif",
     "rating":"4.3",
     "description":"Textile & ApparelPrivateCorporateB2CConglomerate",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/virtusa-consulting-services_1920x534.jpg",
     "jobs":[
       {
       "jobName":" Opening For MIS Executive with a Fashion retail company ABFRL",
@@ -189,13 +194,14 @@
   ]
   },
   {
-    "id":"6",
+    "id":"24",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"Nexii IT Labs",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4614789.gif",
     "rating":"4.5",
     "description":"Engineering & ConstructionIndustrial Equipment / MachineryPrivateForeign MNCB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/jp-morgan-chase_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Senior Systems Engineer",
@@ -228,6 +234,7 @@
     "image":"https://img.naukimg.com/logo_images/groups/v1/45204.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/persistent-systems_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -267,13 +274,14 @@
   ]
   },
   {
-    "id":"8",
+    "id":"25",
     "reviews":1.4,
     "type":"Manufacturing & Production",
     "name":"Quantam Analelic",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4620917.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/r1-rcm_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -313,13 +321,14 @@
   ]
   },
   {
-    "id":"9",
+    "id":"26",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -359,13 +368,14 @@
   ]
   },
   {
-    "id":"10",
+    "id":"27",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -405,13 +415,14 @@
   ]
   },
   {
-    "id":"11",
+    "id":"28",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/applied-materials_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -451,13 +462,14 @@
   ]
   },
   {
-    "id":"12",
+    "id":"29",
     "reviews":1.4,
     "type":"IT Services ",
     "name":"bharti_airtel",
     "image":"https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating":"3.5",
     "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
     "jobs":[
       {
       "jobName":"Hiring .NET Software Engineer",
@@ -497,13 +509,14 @@
   ]
   },
   {
-    "id": "13",
+    "id": "30",
     "name": "ExcelaCom Technologies",
     "image": "https://logotyp.us/files/desktime.svg",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
@@ -533,13 +546,14 @@
 
 
   {
-    "id": "2",
+    "id": "31",
     "name": "ExcelaCom Technologies",
     "image": "https://logotyp.us/files/desktime.svg",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
@@ -565,13 +579,14 @@
     ]
   },
   {
-    "id": "2",
+    "id": "32",
     "name": "ExcelaCom ",
     "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
@@ -597,13 +612,14 @@
     ]
   },
   {
-    "id": "2",
+    "id": "33",
     "name": "ExcelaCom Technologies",
     "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
@@ -629,13 +645,14 @@
     ]
   },
   {
-    "id": "2",
+    "id": "34",
     "name": "ExcelaCom Technologies",
     "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
@@ -661,13 +678,14 @@
     ]
   },
   {
-    "id": "2",
+    "id": "35",
     "name": "ExcelaCom Technologies",
     "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating": "4.3",
     "reviews":27.9,
     "type": "Technology",
     "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/applied-materials_1920x534.jpg",
     "jobs": [
       {
         "jobName": "Postgresql Developer",
