@@ -1,0 +1,68 @@
+{
+  "Company": [
+    {
+      "id": "1",
+      "name": "ExcelaCom Technologies",
+      "image": "https://img.naukimg.com/logo_images/groups/v1/1181436.gif",
+      "rating": "4.3",
+      "reviews":1.4,
+      "type": "IT-Services",
+      "description": "IT service Counsulting Forgen MNC Service",
+      "jobs": [
+        {
+          "jobName": "Postgresql Developer",
+          "experince": "5-10 Years",
+          "location": "Chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+          "$": "10000 - 200000"
+        },
+        {
+          "jobName": "Oracle To Postgres DBA",
+          "experince": "5-10 Years",
+          "location": "chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+          "$": "1200 - 230000"
+        },
+        {
+          "jobName": "POSTGRESQL DBA",
+          "experince": "3-7 years",
+          "location": "chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+          "$": "15000 - 230000"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ExcelaCom Technologies",
+      "image": "https://logotyp.us/files/desktime.svg",
+      "rating": "4.3",
+      "reviews":27.9,
+      "type": "Technology",
+      "description": "IT service Counsulting Forgen MNC Service",
+      "jobs": [
+        {
+          "jobName": "Postgresql Developer",
+          "experince": "5-10 Years",
+          "location": "Chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+          "$": "10000 - 200000"
+        },
+        {
+          "jobName": "Oracle To Postgres DBA",
+          "experince": "5-10 Years",
+          "location": "chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+          "$": "1200 - 230000"
+        },
+        {
+          "jobName": "POSTGRESQL DBA",
+          "experince": "3-7 years",
+          "location": "chenaii",
+          "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+          "$": "15000 - 230000"
+        }
+      ]
+    }
+  ]
+}
