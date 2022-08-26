@@ -33,9 +33,7 @@ const FilterData = () => {
   return (
     <Box>
       <Box
-        border="1px solid red"
-        bgImage="linear-gradient(red,orange)"
-        mt="2rem"
+        bgImage="linear-gradient(navy,teal,blue)"
         color="whitesmoke"
       >
         <Text fontSize="2xl">Filter</Text>
