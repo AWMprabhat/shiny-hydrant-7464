@@ -26,10 +26,10 @@ const Company = () => {
         <Box w="10%" border="1px solid blue">
           <FilterData />
         </Box>
-        <Box w="85%" display="flex" flexWrap="wrap" gap="10px" border="1px solid green">
+        <Box w="85%" display="grid" gridTemplateColumns="repeat(4,1fr)" gap="15px"  border="1px solid green">
           {company.length > 0 &&
             company.map((t) => (
-              <Flex key={t.id} border="1px solid red" direction="column" w="20%" gap="1rem">
+              <Flex key={t.id} border="1px solid red" direction="column" w="100%" gap="1rem">
                 <Box>
                   <Image
                     w="200px"
