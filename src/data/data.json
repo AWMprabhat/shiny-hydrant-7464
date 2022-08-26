@@ -4,7 +4,7 @@
     {
     "id":"19",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"ExcelaCom Technologies",
     "image":"https://img.naukimg.com/logo_images/groups/v1/1181436.gif",
     "rating":"4.3",
@@ -37,7 +37,7 @@
   {
     "id":"20",
     "reviews":1.4,
-    "type":"Technology ",
+    "type":"Technology",
     "name":"AECOM",
     "image":"https://img.naukimg.com/logo_images/groups/v1/295156.gif",
     "rating":"4.5",
@@ -92,7 +92,7 @@
       "$":"Not Disclosed"
     },
     {
-      "jobName":"Test Engineer - II - Mumbai (Kurla) - Investment Technology Firm",
+      "jobName":"Test Engineer - II - Mumbai (Kurla) - Investment TechnologyFirm",
       "experince":"2 - 5 years",
       "location":"Mumbai (All Areas)",
       "skilss":"Java, automation, Manual, Testing",
@@ -114,7 +114,7 @@
     "name":"Ognam Technology",
     "image":"https://img.naukimg.com/logo_images/groups/v1/412440.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/oracle_1920x534.jpg",
     "jobs":[
       {
@@ -197,7 +197,7 @@
   {
     "id":"24",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"Nexii IT Labs",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4614789.gif",
     "rating":"4.5",
@@ -230,11 +230,11 @@
   {
     "id":"7",
     "reviews":1.4,
-    "type":"Technology ",
+    "type":"Technology",
     "name":"Ognam Technology",
     "image":"https://img.naukimg.com/logo_images/groups/v1/45204.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/persistent-systems_1920x534.jpg",
     "jobs":[
       {
@@ -281,7 +281,7 @@
     "name":"Quantam Analelic",
     "image":"https://img.naukimg.com/logo_images/groups/v1/4620917.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/r1-rcm_1920x534.jpg",
     "jobs":[
       {
@@ -324,11 +324,11 @@
   {
     "id":"26",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
     "jobs":[
       {
@@ -371,11 +371,11 @@
   {
     "id":"27",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
     "jobs":[
       {
@@ -418,11 +418,11 @@
   {
     "id":"28",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"Insterm",
     "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/applied-materials_1920x534.jpg",
     "jobs":[
       {
@@ -465,11 +465,11 @@
   {
     "id":"29",
     "reviews":1.4,
-    "type":"IT Services ",
+    "type":"IT Services",
     "name":"bharti_airtel",
     "image":"https://img.naukimg.com/logo_images/groups/v1/126896.gif",
     "rating":"3.5",
-    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "description":"IT Services& ConsultingPrivateCorporateB2B",
     "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
     "jobs":[
       {
