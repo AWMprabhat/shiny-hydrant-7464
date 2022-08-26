@@ -188,9 +188,13 @@ const Homepage = () => {
 						}}>
 						<SingalSlideBox />
 					</Box>
-				</Box>
+
+				
+
+
 			</Box>
 		</Box>
+	</Box>
 	);
 };;
 
