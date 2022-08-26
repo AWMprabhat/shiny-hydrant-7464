@@ -11,47 +11,68 @@ import {
   Stack,
   Text,
   Image,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { login } from "../../Redux/AuthReducer/action";
 import { FcGoogle } from "react-icons/fc";
 import { MdDone } from "react-icons/md";
-
+//#445578
 const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  const token = useSelector((store) => store.AuthReducer.token);
+  const [isSmallerthan] = useMediaQuery("(min-width: 650px)");
   const loginHandler = () => {
-    if (username && password) {
-      const params = {
-        username,
-        password,
-      };
-
-      dispatch(login(params)).then((r) => {
-        navigate("/", { replace: true });
-      });
-    }
+    dispatch(login()).then(() => {
+      if (token) {
+        for (let i = 0; i < token.length; i++) {
+          if (
+            (token[i].name === username || token[i].email === username) &&
+            token[i].password === password
+          ) {
+            alert("login success");
+            navigate("/", { replace: true });
+            break;
+          } else {
+            continue;
+          }
+        }
+      } else {
+        alert("login failed");
+      }
+    });
+  };
+  const registerPage = () => {
+    navigate("/register");
   };
 
   return (
-    <Flex minH={"100vh"} align={"center"} justify={"center"}>
+    <Flex
+      minH={"100vh"}
+      align={"center"}
+      justify={"center"}
+      direction={isSmallerthan ? "row" : "column-reverse"}
+    >
       <Stack
         spacing={8}
+        lineHeight="3rem"
         mx={"auto"}
         maxW={"lg"}
-        py={12}
-        px={12}
-        lineHeight="3rem"
+        py={isSmallerthan ? 12 : 0}
+        px={isSmallerthan ? 6 : 0}
         mr="0"
+        w="100%"
         boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
       >
         <Box textAlign="left">
-          <Heading size={"md"}>New to Naukri?</Heading>
+          <Heading size={isSmallerthan ? "4xl" : "2xl"} color="#445578">
+            New to Naukri?
+          </Heading>
           <Text display="flex" alignItems="center">
             <MdDone color="royalblue" />
             One click apply using naukri profile.
@@ -74,6 +95,7 @@ const Login = () => {
             fontWeight="lighter"
             bg="transparent"
             color="royalblue"
+            onClick={registerPage}
           >
             Register for Free
           </Button>
@@ -92,10 +114,13 @@ const Login = () => {
         py={12}
         px={6}
         ml="1"
+        w="100%"
         boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
       >
         <Stack align={"center"}>
-          <Heading fontSize={"4xl"}>Login to your account</Heading>
+          <Heading fontSize={"4xl"} color="#445578">
+            Login to your account
+          </Heading>
         </Stack>
         <Box rounded={"lg"} boxShadow={"lg"} p={8}>
           <Stack spacing={4}>
@@ -122,7 +147,9 @@ const Login = () => {
                 justify={"space-between"}
               >
                 <Checkbox>Remember me</Checkbox>
-                <Link color={"blue.400"}>Forgot password?</Link>
+                <Link color={"blue.400"} to="/register">
+                  Forgot password?
+                </Link>
               </Stack>
               <Button
                 bg={"blue.400"}

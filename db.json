@@ -1,0 +1,31 @@
+{
+  "registeration": [
+    {
+      "name": "Naresh Rajput",
+      "email": "nareshrajput@gmail.com",
+      "password": "1234567",
+      "mobile": "9617732664",
+      "work": "I'm a Fresher",
+      "description": "Hello, I am Naresh Rajput member of Naukari.com Group-Team",
+      "id": 1
+    },
+    {
+      "name": "Manish Kumar",
+      "email": "manishkumar@gmail.com",
+      "password": "12345",
+      "mobile": "7889887756",
+      "work": "I'm a Fresher",
+      "description": "Hello, I am Manish Kumar Senior member of Naukari.com Group-Team",
+      "id": 2
+    },
+    {
+      "name": "Prabhat",
+      "email": "prabhat@gmail.com",
+      "password": "54321",
+      "mobile": "9981556677",
+      "work": "I'm Experienced",
+      "description": "Hello, I am Prabhat Leader of Naukari.com Group-Team",
+      "id": 3
+    }
+  ]
+}

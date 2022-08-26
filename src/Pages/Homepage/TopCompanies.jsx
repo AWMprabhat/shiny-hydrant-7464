@@ -1,3 +1,4 @@
+
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { IoIosArrowForward } from "react-icons/io";
 import React, { Component } from "react";
@@ -6,6 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "@chakra-ui/react";
 import "../../App.css";
+
+
 
 const data = [
 	{
@@ -18,6 +21,7 @@ const data = [
 			"https://img.naukimg.com/logo_images/groups/v1/29798.gif",
 		],
 	},
+
 	{
 		name: "MNCs",
 		title: "1.2K+ are actively hiring",
@@ -109,5 +113,7 @@ const TopCompanies = () => {
 		</Slider>
 	);
 };;
+
+
 
 export default TopCompanies;
