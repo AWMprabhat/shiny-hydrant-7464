@@ -22,7 +22,7 @@ const Company = () => {
   }, [company.length, searchParams, dispatch]);
   return (
     <>
-      <Flex gap="5%" mt="3rem">
+      <Flex gap="5%" mt="3rem" mb="3rem">
         <Box w="15%" borderRight="2px solid royalblue" >
           <FilterData />
         </Box>
