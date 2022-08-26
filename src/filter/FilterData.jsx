@@ -1,12 +1,4 @@
-import {
-  Box,
-  FormLabel,
-  Checkbox,
-  Text,
-  Radio,
-  Stack,
-  Flex,
-} from "@chakra-ui/react";
+import { Box, FormLabel, Checkbox, Text } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
@@ -37,9 +29,9 @@ const FilterData = () => {
         color="whitesmoke"
         mr="20px"
       >
-        <Text fontSize="2xl" >Filter</Text>
+        <Text fontSize="2xl">Filter</Text>
       </Box>
-      <Box display="flex" justifyContent="space-between"  mr="20px">
+      <Box display="flex" justifyContent="space-between" mr="20px">
         <FormLabel>IT Services</FormLabel>
         <Checkbox
           type="checkbox"
@@ -48,13 +40,31 @@ const FilterData = () => {
           onChange={handleOnChange}
         />
       </Box>
-      <Box display="flex" justifyContent="space-between"  mr="20px">
+      <Box display="flex" justifyContent="space-between" mr="20px">
         <FormLabel>Technology</FormLabel>
         <Checkbox
           value="Technology"
           type="checkbox"
           onChange={handleOnChange}
           defaultChecked={category.includes("Technology")}
+        />
+      </Box>
+      <Box display="flex" justifyContent="space-between" mr="20px">
+        <FormLabel>BFSI</FormLabel>
+        <Checkbox
+          value="BFSI"
+          type="checkbox"
+          onChange={handleOnChange}
+          defaultChecked={category.includes("BFSI")}
+        />
+      </Box>
+      <Box display="flex" justifyContent="space-between" mr="20px">
+        <FormLabel>Manufacturing & Production</FormLabel>
+        <Checkbox
+          value="Manufacturing & Production"
+          type="checkbox"
+          onChange={handleOnChange}
+          defaultChecked={category.includes("Manufacturing & Production")}
         />
       </Box>
     </Box>
