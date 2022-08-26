@@ -20,14 +20,14 @@ const Navbar = () => {
 				<Box width="40%" color="#8292b4" fontSize="20px">
 					<Flex align="center" gap="10">
 						<Link to="/">Jobs</Link>
-						<Link to="/">Companies</Link>
+						<Link to="/company">Companies</Link>
 						<Link to="/">Services</Link>
 						<Link to="/">Resources</Link>
 					</Flex>
 				</Box>
 				<Box width="40%">
 					<Flex align="center" ml="60px" gap="10px">
-						<Link to="/">
+						<Link to="/login">
 							<Button
 								borderRadius="40px"
 								variant="outline"
@@ -36,7 +36,7 @@ const Navbar = () => {
 								Login
 							</Button>
 						</Link>
-						<Link to="/">
+						<Link to="/register">
 							<Button
 								borderRadius="40px"
 								size="sm"

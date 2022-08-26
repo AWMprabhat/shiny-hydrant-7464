@@ -1,0 +1,717 @@
+
+{
+  "Company":[
+    {
+    "id":"19",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"ExcelaCom Technologies",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/1181436.gif",
+    "rating":"4.3",
+    "description":"IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/rws-moravia_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Postgresql Developer",
+      "experince":"5-10 Years",
+      "location":"Chenaii",
+      "skilss":"postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+      "$":"10000 - 200000"
+    },
+    {
+      "jobName":"Oracle To Postgres DBA",
+      "experince":"5-10 Years",
+      "location":"chenaii",
+      "skilss":"postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+      "$":"1200 - 230000"
+    },
+    {
+      "jobName":"POSTGRESQL DBA",
+      "experince":"3-7 years",
+      "location":"chenaii",
+      "skilss":"postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+      "$":"15000 - 230000"
+    }
+  ]
+  },
+  {
+    "id":"20",
+    "reviews":1.4,
+    "type":"Technology ",
+    "name":"AECOM",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/295156.gif",
+    "rating":"4.5",
+    "description":"Engineering & ConstructionIndustrial Equipment",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/fidelity-national-information-services_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Senior Systems Engineer",
+      "experince":"0 - 5 years",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"engineering, drawings, design",
+      "$":"Not disclosed"
+    },
+    {
+      "jobName":"CAD Designer",
+      "experince":"From 2 to 3 year(s) of experience",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"CAD, computer aided design, CADD, MicroStation, AutoCAD 3D, Autodesk Revit, autocad",
+      "$":"Not disclosed"
+    },
+    {
+      "jobName":"Senior Electrical Engineer (Dry Utility)",
+      "experince":"2-4 year",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"Electrical Engineering, Telecom, Street Lighting, ELV",
+      "$":"₹ Not Disclosed by Recruiter"
+    }
+  ]
+  },
+  {
+    "id":"21",
+    "reviews":1.4,
+    "type":"Manufacturing & Production",
+    "name":"Visible Alpha",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/4639227.gif",
+    "rating":"4.2",
+    "description":"Software Product, Private, Foreign MNC, Indian MNC, B2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Research Associate I / Junior Research Associate",
+      "experince":"0 - 1 years",
+      "location":"Mumbai (All Areas)",
+      "skilss":"Financial Statement Analysis, Ratio Analysis, research",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"IT Support Specialist I | Desktop Support Engineer | Noida",
+      "experince":"0 - 3 years",
+      "location":"Noida",
+      "skilss":"Desktop Support, end user support, It Administration, troubleshooting, System Administration, networkin",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Test Engineer - II - Mumbai (Kurla) - Investment Technology Firm",
+      "experince":"2 - 5 years",
+      "location":"Mumbai (All Areas)",
+      "skilss":"Java, automation, Manual, Testing",
+      "$":"15000 - 100000"
+    },
+    {
+      "jobName":"Salesforce Developer |Fintech|Mumbai",
+      "experince":"2 - 5 years",
+      "location":"Mumbai (All Areas)",
+      "skilss":"Apex, Salesforce",
+      "$":"Not Disclosed"
+    }
+  ]
+  },
+  {
+    "id":"22",
+    "reviews":1.4,
+    "type":"BFSI",
+    "name":"Ognam Technology",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/412440.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/oracle_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"20000 - 100000"
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 25,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"23",
+    "reviews":1.4,
+    "type":"BFSI",
+    "name":"ABFRL",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/4578215.gif",
+    "rating":"4.3",
+    "description":"Textile & ApparelPrivateCorporateB2CConglomerate",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/virtusa-consulting-services_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":" Opening For MIS Executive with a Fashion retail company ABFRL",
+      "experince":"MIS, MIS Reporting",
+      "location":"Mumbai, Mumbai Suburban, Navi Mumbai",
+      "skilss":"₹ 1,00,000 - 5,00,000 P.A.",
+      "$":"₹ 1,00,000 - 5,00,000 P.A."
+    },
+    {
+      "jobName":"Fashion consultant /Stylist/Fashion Assistant- Marigold Lane",
+      "experince":"1 - 5 years",
+      "location":"Chennai, Bangalore/Bengaluru (WFH during Covid)",
+      "skilss":"",
+      "$":"₹ 1,00,000 - 5,00,000 P.A."
+    },
+    {
+      "jobName":"Opening For MIS Executive with a Fashion retail company",
+      "experince":"1 - 2 years",
+      "location":"Mumbai, Mumbai Suburban, Navi Mumbai",
+      "skilss":"MIS , MIS REporting",
+      "$":"₹ 1,00,000 - 5,00,000 P.A."
+    },
+    {
+      "jobName":"Fashion consultant /Stylist/Fashion Assistant- Marigold Lane ABFRL",
+      "experince":"",
+      "location":"Mumbai, Mumbai Suburban, Navi Mumbai",
+      "skilss":"Customer service, service orientation, Customer focus",
+      "$":"₹ 1,00,000 - 5,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"24",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"Nexii IT Labs",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/4614789.gif",
+    "rating":"4.5",
+    "description":"Engineering & ConstructionIndustrial Equipment",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/jp-morgan-chase_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Senior Systems Engineer",
+      "experince":"0 - 5 years",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"engineering, drawings, design",
+      "$":"Not disclosed"
+    },
+    {
+      "jobName":"CAD Designer",
+      "experince":"From 2 to 3 year(s) of experience",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"CAD, computer aided design, CADD, MicroStation, AutoCAD 3D, Autodesk Revit, autocad",
+      "$":"Not disclosed"
+    },
+    {
+      "jobName":"Senior Electrical Engineer (Dry Utility)",
+      "experince":"2-4 year",
+      "location":"Bangalore/Bengaluru",
+      "skilss":"Electrical Engineering, Telecom, Street Lighting, ELV",
+      "$":"₹ Not Disclosed by Recruiter"
+    }
+  ]
+  },
+  {
+    "id":"7",
+    "reviews":1.4,
+    "type":"Technology ",
+    "name":"Ognam Technology",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/45204.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/persistent-systems_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"20000 - 100000"
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 25,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"25",
+    "reviews":1.4,
+    "type":"Manufacturing & Production",
+    "name":"Quantam Analelic",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/4620917.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/r1-rcm_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"20000 - 100000"
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 25,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"26",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"Insterm",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 20,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"27",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"Insterm",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/luxoft_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 25,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"28",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"Insterm",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/5491006.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/applied-materials_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"20000 - 100000"
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 9,00,000 - 25,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id":"29",
+    "reviews":1.4,
+    "type":"IT Services ",
+    "name":"bharti_airtel",
+    "image":"https://img.naukimg.com/logo_images/groups/v1/126896.gif",
+    "rating":"3.5",
+    "description":"IT Services & ConsultingPrivateCorporateB2B",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
+    "jobs":[
+      {
+      "jobName":"Hiring .NET Software Engineer",
+      "experince":"2-4 Yrs",
+      "location":"Pune",
+      "skilss":".net, communication, MVC, XPath, Scrum Agile, JSON, XML, DevOps",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Hiring For SR QA Analyst",
+      "experince":"5 - 10 years",
+      "location":"Pune",
+      "skilss":"Selenium RC, UX Testing, RESTFul Services, Automation Framework, DB Testing, SDLC,",
+      "$":"Not Disclosed"
+    },
+    {
+      "jobName":"Support Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"L3 support, oral, Logging Framework, optimization, Entity Framework, written communication, C#, Java",
+      "$":"₹ 20000 - 100000 P.A"
+    },
+    {
+      "jobName":"Technical Lead",
+      "experince":"7 - 12 years",
+      "location":"Pune",
+      "skilss":"asp.net core, NoSql, Sql Server, Sql, Asp Net Core, .net core, React.Js",
+      "$":"₹ 10,00,000 - 20,00,000 P.A."
+    },
+    {
+      "jobName":"Excellent Opportunity For .NET Professionals",
+      "experince":"4 - 9 years",
+      "location":"Pune",
+      "skilss":".net developer, SQL Server, Scrum Agile, XPath, DevOps, XML, communication, JSON",
+      "$":"₹ 11,00,000 - 18,00,000 P.A."
+    }
+  ]
+  },
+  {
+    "id": "30",
+    "name": "ExcelaCom Technologies",
+    "image": "https://logotyp.us/files/desktime.svg",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000 P.A."
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000 .A.P"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+        "$": "15000 - 230000 A.P."
+      }
+    ]
+  },
+
+
+
+
+  {
+    "id": "31",
+    "name": "ExcelaCom Technologies",
+    "image": "https://logotyp.us/files/desktime.svg",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000"
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+        "$": "15000 - 230000"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "ExcelaCom ",
+    "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/nagarro_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000"
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "java, spring boots, restApi, software" ,
+        "$": "15000 - 230000 A.P."
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "name": "ExcelaCom Technologies",
+    "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000"
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+        "$": "15000 - 230000"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "ExcelaCom Technologies",
+    "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/accolite_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000"
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+        "$": "15000 - 230000"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "name": "ExcelaCom Technologies",
+    "image": "https://img.naukimg.com/logo_images/groups/v1/126896.gif",
+    "rating": "4.3",
+    "reviews":27.9,
+    "type": "Technology",
+    "description": "IT service Counsulting Forgen MNC Service",
+    "backgroundImg":"https://static.ambitionbox.com/alpha/company/photos/banner/desktop/applied-materials_1920x534.jpg",
+    "jobs": [
+      {
+        "jobName": "Postgresql Developer",
+        "experince": "5-10 Years",
+        "location": "Chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "10000 - 200000"
+      },
+      {
+        "jobName": "Oracle To Postgres DBA",
+        "experince": "5-10 Years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, Pgpool, RDS, Oracle",
+        "$": "1200 - 230000"
+      },
+      {
+        "jobName": "POSTGRESQL DBA",
+        "experince": "3-7 years",
+        "location": "chenaii",
+        "skilss": "postgresql, database administration, AWS, Db Migration, IT Skills, DBA, Oracle, ",
+        "$": "15000 - 230000"
+      }
+    ]
+  }
+  
+]
+}
+
