@@ -17,19 +17,19 @@ const Company = () => {
           type: searchParams.getAll("type"),
         },
       };
-      dispatch(getCompanyRecords(queryParams));
+      dispatch(getCompanyRecords(queryParams))
     }
   }, [company.length, searchParams, dispatch]);
   return (
     <>
-      <Flex gap="5%">
-        <Box w="10%" border="1px solid blue">
+      <Flex gap="5%" mt="3rem">
+        <Box w="15%" borderRight="2px solid royalblue" >
           <FilterData />
         </Box>
-        <Box w="85%" display="grid" gridTemplateColumns="repeat(4,1fr)" gap="15px"  border="1px solid green">
+        <Box w="80%" display="grid" gridTemplateColumns="repeat(4,1fr)" gap="15px">
           {company.length > 0 &&
             company.map((t) => (
-              <Flex key={t.id} border="1px solid red" direction="column" w="100%" gap="1rem">
+              <Flex key={t.id} borderRadius="5px" direction="column" w="100%" gap="1.1rem" boxShadow="rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" mt="10px" pb="5px">
                 <Box>
                   <Image
                     w="200px"
