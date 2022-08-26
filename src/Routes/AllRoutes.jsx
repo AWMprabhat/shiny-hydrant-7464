@@ -7,7 +7,6 @@ import CompanyStore from "../Pages/Companies/CompanyStore.jsx";
 import Homepage from "../Pages/Homepage/Homepage.jsx";
 import Login from "../Pages/Login/Login.jsx";
 import Register from "../Pages/Login/Register.jsx";
-import Footer from "../Components/Footer"
 
 const AllRoutes = () => {
   return (
