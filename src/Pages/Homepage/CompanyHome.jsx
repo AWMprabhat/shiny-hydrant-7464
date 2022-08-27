@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Box, Button, Container, Flex } from "@chakra-ui/react";
 import "../../App.css";
+import { Link } from "react-router-dom";
 const CompanyHome = ({ data }) => {
 	console.log("data: ", data);
 	const settings = {
@@ -64,9 +65,11 @@ const CompanyHome = ({ data }) => {
 								<Box fontSize="16px" m="2">
 									{e.description}
 								</Box>
-								<Button style={{ marginBottom: "0px" }}>
-									view jobs
-								</Button>
+								<Link to={`/company/${e.id}`}>
+									<Button style={{ marginBottom: "0px" }}>
+										view jobs
+									</Button>
+								</Link>
 							</Box>
 						</Box>
 					))}
