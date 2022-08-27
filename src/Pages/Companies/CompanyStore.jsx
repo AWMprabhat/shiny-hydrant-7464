@@ -1,10 +1,8 @@
-
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useLocation, useParams } from "react-router-dom";
-import { ViewJobsData } from "../../Redux/AppReducer/ViewJobsData";
-import FilterData from "../../filter/FilterData";
-import { AiFillStar , GrFormLocation } from "react-icons/ai";
+
+import { AiFillStar, GrFormLocation } from "react-icons/ai";
 
 import {
   Box,
@@ -15,29 +13,37 @@ import {
   Text,
   Button,
 } from "@chakra-ui/react";
-
+import { getCompanyRecords } from "../../Redux/AppReducer/action";
 
 const CompanyStore = () => {
-  // const dispatch = useDispatch();
-  // const company = useSelector((store) => store.AppReducer.company);
-  const { companyId } = useParams();
- const { isloading, data, iserror, error} = ViewJobsData(companyId)
-// console.log(company)
-if(isloading){
- return <Text>loading....</Text>
-}
-if(iserror){
-  return <Text>error 404 not found</Text>
-}
+  const dispatch = useDispatch();
+  const company = useSelector((store) => store.AppReducer.company);
+  const { id } = useParams();
+  const [currentState, setCurrentState] = useState([]);
+
+  // console.log("hello" ,currentState.jobs)
+  useEffect(() => {
+    if (company.length === 0) {
+      dispatch(getCompanyRecords());
+    }
+  }, [dispatch, company.length]);
+
+  useEffect(() => {
+    if (id) {
+      const cur = company.find((item) => item.id === id);
+      cur && setCurrentState(cur);
+    }
+  }, [id, company]);
+
+  console.log(company);
 
   return (
     <>
+    {/* company data */}
       <Box position="relative" maxheight="auto" width="100%">
-        <img
-          src="{data?.data.backgroundImg}"
-          alt="logo"
-        />
+        <img src={currentState.backgroundImg} alt="logo" />
       </Box>
+
       <Flex
         justifyContent="space-evenly"
         margin="auto"
@@ -49,14 +55,11 @@ if(iserror){
         <Box width="80%" height="150px">
           <Flex margin="1rem">
             <Box height="120px" width="120px" borderRadius="4px">
-              <img
-                src=""
-                alt="logo"
-              />
+              <img src={currentState.image} alt="logo" />
             </Box>
             <Box>
               <Heading margin="1rem" fontSize="40px">
-                Heading
+                name
               </Heading>
 
               <Text margin="1rem" fontSize="md">
@@ -64,7 +67,7 @@ if(iserror){
               </Text>
             </Box>
             <Box padding="2rem">
-              <AiFillStar/>
+              <AiFillStar />
             </Box>
           </Flex>
         </Box>
@@ -80,51 +83,57 @@ if(iserror){
           <Text>64.7 k Folowers</Text>
         </Box>
       </Flex>
-      <Box width="90%" margin="auto">
+      <Box width="90%" margin="auto" border='1px solid red'>
         <Grid templateColumns="repeat(5, 1fr)" gap={6}>
           <GridItem colSpan={3} h="auto">
-            <Flex
-              justifyContent="space-evenly"
-              margin="5px"
-              width="100%"
-              border="1px solid black"
-              bgColor="thunder"
-              borderRadius="10px"
-            >
-              <Box width="100%" height="auto" bg="smoke">
-                <Flex margin="1rem">
-                  <Box height="50px" width="50px" borderRadius="4px">
-                    <img
-                      src="https://img.naukimg.com/logo_images/groups/v1/5491006.gif"
-                      alt="logo"
-                    />
-                  </Box>
-                  <Box>
-                    <Text margin="1rem" fontSize="xxl">
-                      Senior Engineer
-                    </Text>
+            
 
-                    <Text margin="1rem" fontSize="s">
-                      Companys Name
-                    </Text>
-                  </Box>
-                  <Box padding="2rem">
-                    <AiFillStar/>
-                  </Box>
-                  {/* <Box padding='2rem'><p>Reviwe</p></Box> */}
-                </Flex>
-              </Box>
-              <Box width="20%" height="150px" fontSize="xs">
-                <Button
-                  padding="6px"
-                  backgroundColor="green"
-                  marginTop="2rem"
-                  color="blue"
-                >
-                  Apply
-                </Button>
-              </Box>
-            </Flex>
+            
+              <Flex
+                justifyContent="space-evenly"
+                margin="5px"
+                width="100%"
+                border="1px solid black"
+                bgColor="thunder"
+                borderRadius="10px"
+              >
+                <Box width="100%" height="auto" bg="smoke">
+                  <Flex margin="1rem">
+                    <Box height="50px" width="50px" borderRadius="4px">
+                      <img
+                        src="https://img.naukimg.com/logo_images/groups/v1/5491006.gif"
+                        alt="logo"
+                      />
+                    </Box>
+                    <Box>
+                      <Text margin="1rem" fontSize="xxl">
+                        Senior Engineer
+                      </Text>
+
+                      <Text margin="1rem" fontSize="s">
+                        Companys Name
+                      </Text>
+                    </Box>
+                    <Box padding="2rem">
+                      <AiFillStar />
+                    </Box>
+                    {/* <Box padding='2rem'><p>Reviwe</p></Box> */}
+                  </Flex>
+                </Box>
+                <Box width="20%" height="150px" fontSize="xs">
+                  <Button
+                    padding="6px"
+                    backgroundColor="green"
+                    marginTop="2rem"
+                    color="blue"
+                  >
+                    Apply
+                  </Button>
+                </Box>
+              </Flex>
+            
+
+            
           </GridItem>
           <GridItem colStart={4} colEnd={6}>
             <Flex
@@ -173,3 +182,4 @@ if(iserror){
 };
 
 export default CompanyStore;
+// {currentState.jobs.map((d)=>())}
