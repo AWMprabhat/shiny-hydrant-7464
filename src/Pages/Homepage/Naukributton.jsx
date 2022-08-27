@@ -1,6 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const data = [
 	{
@@ -52,29 +53,31 @@ const data = [
 const Naukributton = () => {
 	return (
 		<>
-			{data.map((e) => (
-				<button
-					key={e.name}
-					style={{
-						border: "1px solid #EBF1F4 ",
+			<Link to="/company">
+				{data.map((e) => (
+					<button
+						key={e.name}
+						style={{
+							border: "1px solid #EBF1F4 ",
 
-						height: "80px",
-						margin: "6px",
+							height: "80px",
+							margin: "6px",
 
-						margin: "6px",
-						height: "80px",
+							margin: "6px",
+							height: "80px",
 
-						borderTopLeftRadius: "15%",
-						borderTopRightRadius: "5%",
-						borderBottomRightRadius: "15%",
-						borderBottomLeftRadius: "5%",
-					}}>
-					<Flex align="center" gap="20px" justify="center">
-						<img src={e.logo} width="40px" />
-						{e.name} <span>{<IoIosArrowForward />}</span>
-					</Flex>
-				</button>
-			))}
+							borderTopLeftRadius: "15%",
+							borderTopRightRadius: "5%",
+							borderBottomRightRadius: "15%",
+							borderBottomLeftRadius: "5%",
+						}}>
+						<Flex align="center" gap="20px" justify="center">
+							<img src={e.logo} width="40px" />
+							{e.name} <span>{<IoIosArrowForward />}</span>
+						</Flex>
+					</button>
+				))}
+			</Link>
 		</>
 	);
 };
