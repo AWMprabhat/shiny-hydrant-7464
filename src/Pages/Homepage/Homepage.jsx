@@ -25,7 +25,7 @@ const Homepage = () => {
 	// console.log("company: ", company);
 	const [searchParams] = useSearchParams();
 	useEffect(() => {
-		if (data.length === 0) {
+		if (data.length) {
 			const queryParams = {
 				params: {
 					type: searchParams.getAll("type"),
@@ -115,13 +115,15 @@ const Homepage = () => {
 						</Text>
 					</Box>
 					<Box>
-						<Button
-							borderRadius="40px"
-							size="sm"
-							color="white"
-							bgColor="#fe7554">
-							Register
-						</Button>
+						<Link to="/register">
+							<Button
+								borderRadius="40px"
+								size="sm"
+								color="white"
+								bgColor="#fe7554">
+								Register
+							</Button>
+						</Link>
 					</Box>
 				</Flex>
 			</Box>

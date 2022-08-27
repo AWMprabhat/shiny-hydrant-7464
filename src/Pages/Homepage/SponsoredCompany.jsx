@@ -4,14 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Box, Button, Container, Flex } from "@chakra-ui/react";
 import "../../App.css";
+import { Link } from "react-router-dom";
 const SponsoredCompany = ({ data }) => {
-	console.log("data: ", data);
+	console.log("data: manish ", data);
 	const settings = {
 		dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 5,
-		slidesToScroll: 4,
+		slidesToScroll: 2,
 		rows: 2,
 	};
 	return (
@@ -64,9 +65,11 @@ const SponsoredCompany = ({ data }) => {
 								<Box fontSize="16px" m="2">
 									{e.description}
 								</Box>
-								<Button style={{ marginBottom: "0px" }}>
-									view jobs
-								</Button>
+								<Link to={`/company/${e.id}`}>
+									<Button style={{ marginBottom: "0px" }}>
+										view jobs
+									</Button>
+								</Link>
 							</Box>
 						</Box>
 					))}
