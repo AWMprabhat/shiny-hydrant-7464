@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
 	Flex,
 	Button,
@@ -13,8 +13,27 @@ import {
 import Naukributton from "./Naukributton.jsx";
 import TopCompanies from "./TopCompanies.jsx";
 import SingalSlideBox from "./SingalSlideBox.jsx";
+import { useDispatch, useSelector } from "react-redux";
+import CompanyHome from "./CompanyHome.jsx";
+import { Link, useSearchParams } from "react-router-dom";
+import { getCompanyRecords } from "../../Redux/AppReducer/action.js";
+import SponsoredCompany from "./SponsoredCompany.jsx";
 
 const Homepage = () => {
+	const dispatch = useDispatch();
+	const data = useSelector((store) => store.AppReducer.company);
+	// console.log("company: ", company);
+	const [searchParams] = useSearchParams();
+	useEffect(() => {
+		if (data.length === 0) {
+			const queryParams = {
+				params: {
+					type: searchParams.getAll("type"),
+				},
+			};
+			dispatch(getCompanyRecords(queryParams));
+		}
+	}, [data.length, searchParams, dispatch]);
 	return (
 		<Box width="80%" m="auto" color="#445578">
 			<Box mt="60px">
@@ -115,7 +134,6 @@ const Homepage = () => {
 			{/* buttons */}
 
 			<Box m="auto" mt="60px" color="#445578" width="80%">
-
 				<Naukributton />
 			</Box>
 			<Box mt="60px" color="#445578">
@@ -131,67 +149,86 @@ const Homepage = () => {
 					Featured companies actively hiring
 				</Heading>
 			</Box>
-			<Box
-				width="60%"
-				height="300px"
-				border="2px solid black"
-				m="auto"
-				mt="60px">
-				<h1>Companies Cards</h1>
-				{/* TODO */}
+			<Box width="80%" m="auto" mt="60px">
+				<CompanyHome data={data} />
+				<Box m="40px">
+					<Link to="/company">
+						<Button
+							borderRadius="30px"
+							background="white"
+							border="1px solid blue">
+							View All Companies
+						</Button>
+					</Link>
+				</Box>
 			</Box>
-			{/* single Tab Slider work start -------------------------------- */}
-			<Box>
-				{/* discover jobs across  */}
-				<Box>
-					<Box
-						width="80%"
-						m="auto"
-						mt="60px"
-						position="relative"
-						mb="60px"
-						p="60px 0px 60px 80px"
-						borderTopLeftRadius="15%"
-						borderTopRightRadius="5%"
-						borderBottomRightRadius="15%"
-						borderBottomLeftRadius="5%"
-						// border="2px solid blue"
-						textAlign="left"
-						bgColor="#FEF9F4">
-						<img
-							width="105px"
-							height="105px"
-							src="https://static.naukimg.com/s/0/0/i/role-collection.png"
-							alt="discover job section"
-						/>
-						<Heading color="black" fontSize="27px">
-							Discover jobs across
-						</Heading>
-						<Heading color="black" fontSize="27px">
-							popular roles
-						</Heading>
-						<Text mt="12px" fontSize="17px">
-							Select a role and we'll show
-						</Text>
-						<Text fontSize="17px">you relevant jobs for it!</Text>
-					</Box>
-					{/* < discover jobs Slider work */}
-					<Box
-						width="40%"
-						style={{
-							position: "relative",
-							left: "700px",
-							top: "-435px",
-						}}>
-						<SingalSlideBox />
-					</Box>
 
+			{/* single Tab Slider work start -------------------------------- */}
+			<Box height="auto" position="relative">
+				{/* discover jobs across  */}
+				{/* <Box> */}
+				<Box
+					width="80%"
+					m="auto"
+					mt="60px"
+					// position="relative"
+					mb="60px"
+					p="60px 0px 60px 80px"
+					borderTopLeftRadius="15%"
+					borderTopRightRadius="5%"
+					borderBottomRightRadius="15%"
+					borderBottomLeftRadius="5%"
+					// border="2px solid blue"
+					textAlign="left"
+					bgColor="#FEF9F4">
+					<img
+						width="105px"
+						src="https://static.naukimg.com/s/0/0/i/role-collection.png"
+						alt="discover job section"
+					/>
+					<Heading color="black" fontSize="27px">
+						Discover jobs across
+					</Heading>
+					<Heading color="black" fontSize="27px">
+						popular roles
+					</Heading>
+					<Text mt="12px" fontSize="17px">
+						Select a role and we'll show
+					</Text>
+					<Text fontSize="17px">you relevant jobs for it!</Text>
+				</Box>
+				{/* < discover jobs Slider work */}
+				<Box
+					width="40%"
+					style={{
+						position: "absolute",
+						float: "right",
+						right: "210px",
+						bottom: "-25px",
+					}}>
+					<SingalSlideBox />
+				</Box>
+			</Box>
+			<Box mt="60px" color="#445578">
+				<Heading color="black" size="lg">
+					Sponsored companies
+				</Heading>
+			</Box>
+			<Box width="80%" m="auto" mt="60px">
+				<SponsoredCompany data={data} />
+				<Box m="40px">
+					<Link to="/company">
+						<Button
+							borderRadius="30px"
+							background="white"
+							border="1px solid blue">
+							View All Companies
+						</Button>
+					</Link>
+				</Box>
 			</Box>
 		</Box>
-	</Box>
 	);
 };
 
 export default Homepage;
-
-
