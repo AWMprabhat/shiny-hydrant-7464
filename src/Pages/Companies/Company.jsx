@@ -75,6 +75,7 @@ const Company = () => {
             ))}
         </Box>
       </Flex>
+
     </>
   );
 };
