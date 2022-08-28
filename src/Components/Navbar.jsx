@@ -19,10 +19,11 @@ const Navbar = () => {
 
 				<Box width="40%" color="#8292b4" fontSize="20px">
 					<Flex align="center" gap="10">
-						<Link to="/">Jobs</Link>
+						{/* <Link to="/">Jobs</Link> */}
 						<Link to="/company">Companies</Link>
-						<Link to="/">Services</Link>
-						<Link to="/">Resources</Link>
+						<Link to="/about">About</Link>
+						{/* <Link to="/">Services</Link> */}
+						{/* <Link to="/">Resources</Link> */}
 					</Flex>
 				</Box>
 				<Box width="40%">

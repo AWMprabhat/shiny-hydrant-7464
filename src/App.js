@@ -1,3 +1,4 @@
+
 import "./App.css";
 import CompanyStore from "./Pages/Companies/CompanyStore";
 import Homepage from "./Pages/Homepage/Homepage.jsx";
@@ -7,19 +8,22 @@ import {ApplyAlert} from "./Pages/Companies/ApplyAlert";
 
 
 
+
 import AllRoutes from "./Routes/AllRoutes.jsx";
 
 function App() {
-	return (
+  return (
 		<div className="App">
 			<AllRoutes />
+
 			{/* <ApplyAlert/> */}
 			{/* <SliderBox /> */}
 			{/* <Homepage /> */}
 			{/* <Naukributton /> */}
 			{/* <CompanyStore/> */}
+
 		</div>
-	);
+  );
 }
 
 export default App;
