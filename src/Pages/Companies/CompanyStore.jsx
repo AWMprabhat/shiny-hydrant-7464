@@ -127,7 +127,7 @@ const CompanyStore = () => {
              
              border=".1px solid gray"
              borderRadius="15px"
-            bgColor="#FBE7A1"
+            bgImage="linear-gradient(skyblue, royalblue)"
              marginTop="1rem"
              boxShadow='1px 0px 9px 0px  black'
            >
@@ -145,7 +145,7 @@ const CompanyStore = () => {
                      <img src={currentState.image} alt="logo" />
                    </Box>
                    <Box>
-                     <Box color="gray" fontSize="25px">
+                     <Box color="whitesmoke" fontSize="25px">
                        {e.jobName}
                      </Box>
                      <Box color="black" fontSize="18px">
@@ -172,20 +172,20 @@ const CompanyStore = () => {
              <Box fontSize="14px" margin="1rem">
                <Flex justifyContent="flex-start" gap="1rem">
                  <Box border="1px solid gray" 
-                 bgColor='pink'
+                 bgColor='whitesmoke'
                  borderRadius="15px">
                    {" "}
                    Experince-{e.experince} 
                  </Box>
                  |
                  <Box border="1px solid gray" borderRadius="15px"
-                 bgColor='pink'>
+                 bgColor='whitesmoke'>
                    {" "}
                    Location-{e.location}
                  </Box>
                  |
                  <Box border="1px solid gray" borderRadius="15px"
-                 bgColor='pink'
+                 bgColor='whitesmoke'
                  >
                    {" "}
                    Package-{e.$}
