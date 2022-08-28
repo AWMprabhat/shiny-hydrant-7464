@@ -113,7 +113,7 @@
     width: 38%;
     padding: 200px 60px 0 60px;
     height: 100%;
-    margin-left: 250px;
+    margin-left: 400px;
     font-size: large;
   }
   .btnAbout{
@@ -209,7 +209,8 @@
 }
 .aboutAnnouce1{
     width:55%;
-    height:90%;
+    height:fit-content;
+    
     margin: 25px 0 0 0;
     background-color: rgb(239,239,239);
 }
