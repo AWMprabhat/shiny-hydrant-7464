@@ -29,19 +29,23 @@
     },
     {
       "name": "manish",
+
       "email": "manishs@gmail.com",
       "password": "1234",
       "mobile": "987456122",
       "work": "I'm a Fresher",
+
       "description": "",
       "id": 4
     },
     {
+
       "name": "Naukari",
       "email": "naukari@gmail.com",
       "password": "12345",
       "mobile": "9987654321",
       "work": "I'm a Fresher",
+
       "description": "",
       "id": 5
     }
