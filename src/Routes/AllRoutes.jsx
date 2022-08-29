@@ -10,7 +10,7 @@ import Register from "../Pages/Login/Register.jsx";
 import AboutPage from "../Pages/others/AboutPage.jsx";
 
 const AllRoutes = () => {
-  return (
+	return (
 		<div>
 			<div
 				style={{
@@ -23,16 +23,19 @@ const AllRoutes = () => {
 			</div>
 			<Routes>
 				<Route path="/" element={<Homepage />} />
-			  {/* <Route path="/register" element={<Register />} /> */}
-			  
+				<Route path="/register" element={<Register />} />
+
 				<Route path="/about" element={<AboutPage />} />
 				<Route path="/login" element={<Login />} />
+
 				<Route path="/company" element={<Company />} />
 				<Route path="/company/:id" element={<CompanyStore />} />
 			</Routes>
 			<Footer />
 		</div>
-  );
+	);
 };
 
 export default AllRoutes;
+
+
