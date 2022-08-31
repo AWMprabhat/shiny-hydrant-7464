@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { NavLink, useLocation, useSearchParams } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 import { Box, Flex, Image } from "@chakra-ui/react";
 import { getCompanyRecords } from "../../Redux/AppReducer/action";
 import FilterData from "../../filter/FilterData";
