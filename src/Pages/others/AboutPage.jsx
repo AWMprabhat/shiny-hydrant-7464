@@ -106,7 +106,7 @@ const AboutPage = () => {
 						}}>
 						<div
 							style={{
-								marginLeft: "1200px",
+								marginLeft: "950px",
 								display: "block",
 								width: "50%",
 							}}>
