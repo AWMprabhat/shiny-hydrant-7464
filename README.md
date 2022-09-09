@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# NAUKRI.COM
+Naukri.com is an Indian employment website operating in India and Middle East. 
+It was founded in March 1997 by Indian businessman Sanjeev Bikhchandani. 
+Naukri.com is the largest employment website in India.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Tech Stack
+- HTML
+- CSS
+- BootStrap
+- React
+- Chakra UI
+- Heroku
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Sign-in/Sign-up Page
+- Navigation Bar
+- Companylist and Joblist Page
+- About Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Prabhat Bhardwaj](https://github.com/AWMprabhat)
+- [manish Kumar](https://github.com/KManishY)
+- [Naresh Rajput](https://github.com/nmewada)
+- [Poovendharan Selvaraj](https://github.com/Poovendharanselvaraj)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Learnings -
+We all became proficient in reading the code of team members.
+How to work and communicate with a team.
+How to be more efficient and productive at the same time.
+Here I get to know how the team works, how to keep cool even under pressure conditions,
+how to keep myself and my teammates motivated throughout the ups and downs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- ## Deployment -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Feedback
 
-### Making a Progressive Web App
+If you have any feedback, please reach out to us 
+[mail-us]("my1000088@gmail.com")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## Screenshots 
+<div align="center">
+  <img src="https://github.com/AWMprabhat/shiny-hydrant-7464/blob/master/src/utils/homepage.PNG"/>
+  <img src="https://github.com/AWMprabhat/shiny-hydrant-7464/blob/master/src/utils/register.PNG"/>
+  <img src="https://github.com/AWMprabhat/shiny-hydrant-7464/blob/master/src/utils/jobpage.PNG"/>
+</div>
