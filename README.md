@@ -52,8 +52,9 @@ how to keep myself and my teammates motivated throughout the ups and downs.
 
 ## Feedback
 
-If you have any feedback, please reach out to us 
-[mail-us]("my1000088@gmail.com")
+
+If you have any feedback, please reach out to us at prabhatbhardwajjuly18@gmail.com
+
 
 
  ## Screenshots 

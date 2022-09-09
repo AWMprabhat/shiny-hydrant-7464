@@ -24,8 +24,6 @@ const AllRoutes = () => {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 
-
-
 			  <Route path="/register" element={<Register />} />
 			  
 
