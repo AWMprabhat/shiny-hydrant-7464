@@ -5,7 +5,6 @@ Naukri.com is the largest employment website in India.
 
 
 
-
 ## Tech Stack
 - HTML
 - CSS
